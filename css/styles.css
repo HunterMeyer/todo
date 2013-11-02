@@ -1,0 +1,88 @@
+#warning {
+  color: red; 
+  display: inline-block;
+}
+
+#create-list {
+  margin: 0 auto;
+  position: absolute;
+  left: 20px;
+  display: inline-block;
+}
+
+#top {
+  text-align: center !important;
+  margin: 0 auto !important;
+  z-index: 100 !important;
+}
+
+#toptop {
+  z-index: 1000;
+  text-align: center;
+}
+
+#task-list {
+  text-align: left;
+  z-index: 99999;
+  position: absolute;
+  left: 2px;
+  list-style-position: inside;
+  display: block;
+}
+
+#list-name {
+  box-shadow: inset 0px 1px 2px black;
+  border: none;
+  width: 250px;
+  height: 35px;
+  text-indent: 4px;
+}
+
+#list-submit {
+  box-shadow: 0 3px 2px -2px black;
+  border: none;
+  color: white;
+  background-color: #3498db;
+  width: 40px;
+  height: 35px;
+}
+
+.user-input {
+  width: 82%;
+  height: 25px;
+  display: inline-block;
+  box-shadow: inset 0px 1px 2px black;
+  border: none;
+  text-indent: 4px;
+}
+
+.user-submit {
+  width: 15%;
+  margin-left: 3px;
+  color: white;
+  border: none;
+  background-color: #3498db;
+  box-shadow: 0 3px 2px -2px black;
+}
+
+.tasklists {
+  display: inline-block;
+  position: relative;
+  background-color: rgba(232, 232, 232, .75);
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px  black;
+  box-shadow: 0 8px 6px -6px black;
+  margin: 5px 5px 5px 5px;
+}
+
+.one-task-list {
+  box-shadow: 1px 1px 6px black;
+  background-color: gray;
+}
+
+.struck {
+  text-decoration: line-through;
+}
