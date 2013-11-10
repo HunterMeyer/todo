@@ -62,33 +62,3 @@ $(function() {
     ii++;
   };
 });
-
-
-
-
-
-// TodoList.forEach(function(task) {
-//   if (task.isDone) {
-//     return task.description;
-//   };
-// })
-
-
-
-
-  // $("form#create-list").submit(function() {
-  //   var task = Object.create(Task);
-  //   var newTask = $("#task-name").val();
-  //   if (newTask !== "") {
-  //     $("#warning").hide();
-  //     task.setDescription(newTask);
-  //     todos.addTasks(task);
-  //     $("ul#task-list").append("<li>" + task.description + "</li>");
-  //     $("#task-name").val("");
-  //   } else {
-  //     $("#warning").show();
-  //     $("#warning").empty().append("<p id='warning'>Please input a task</p>");
-  //     // alert("Please input a task");
-  //   };
-  //   return false;
-  // });
